@@ -1,0 +1,138 @@
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    height: 100%;
+    background: url('img/yuki.png') repeat;
+    background-size: cover;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    /* height: 90%; */
+    margin: auto;
+    background: #F0FFFF;
+}
+
+.title {
+    letter-spacing: 7px;
+    padding: 10px;
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+hr {
+    margin: 10px 10px;
+}
+
+/* INFORMATION */
+
+.datas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.year p,
+.year h3 {
+    display: inline-block;
+    margin: 0 5px;
+    letter-spacing: 5px;
+}
+
+.tutor p,
+.tutor h3 {
+    display: inline-block;
+    margin: 0 5px;
+    letter-spacing: 5px;
+}
+
+
+/* HORARIO */
+
+.horario {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.horario h3 {
+    padding: 17px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #6495ED;
+}
+
+.horario ul {
+    background: #DCDCDC;
+}
+
+.horario ul li {
+    margin: 20px 0;
+    border-bottom: 1px solid #000;
+}
+
+.libre {
+    color: cadetblue;
+}
+
+.tips {
+    width: 90%;
+    margin: auto;
+}
+
+.color {
+    color: cadetblue;
+}
+
+.tips ul li {
+    margin: 10px 0;
+}
+
+a:hover {
+    opacity: .7;
+    font-weight: bold;
+}
+
+.gif {
+    padding: 40px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.gif img {
+    width: 300px;
+}
+
+.gif p {
+    margin: 20px 0;
+}
