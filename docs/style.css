@@ -96,11 +96,13 @@ hr {
 
 .horario ul li {
     margin: 20px 0;
+
     border-bottom: 1px solid #000;
 }
 
 .libre {
     color: cadetblue;
+    padding-bottom: 26px;
 }
 
 .tips {
@@ -136,4 +138,8 @@ a:hover {
 
 .gif p {
     margin: 20px 0;
+}
+
+.time {
+    padding-bottom: 10px;
 }
